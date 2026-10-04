@@ -1,0 +1,5 @@
+dbt-core
+dbt-duckdb
+pandas
+openpyxl
+duckdb

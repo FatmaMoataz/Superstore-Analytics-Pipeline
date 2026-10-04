@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_superstore
+    description: Cleaned and typed rows from the raw Superstore source.
+    columns:
+      - name: row_id
+        tests: [unique, not_null]
+      - name: order_id
+        tests: [not_null]
+      - name: order_date
+        tests: [not_null]
+      - name: ship_date
+        tests: [not_null]
+      - name: ship_mode
+        tests: [not_null]
+      - name: customer_id
+        tests: [not_null]
+      - name: product_id
+        tests: [not_null]
+      - name: sales
+        tests: [not_null]
+      - name: quantity
+        tests: [not_null]
